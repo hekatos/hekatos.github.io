@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://bypass.beerpsi.me/beta'
 languageCode = 'en-us'
 title = 'iOS Jailbreak Detection'
 theme = ["hugo-notice", "hugo-book"]
