@@ -45,7 +45,7 @@ jobs:
           signoff: true
   build-hugo:
     runs-on: ubuntu-20.04
-    needs: deploy
+    needs: update-table
     steps:
       - uses: actions/checkout@v2
         with:
