@@ -26,4 +26,3 @@ theme = ["hugo-notice", "hugo-book"]
 
 [params]
   BookTheme = 'dark'
-  BookMenuBundle = '/menu'
