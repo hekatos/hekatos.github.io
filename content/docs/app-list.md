@@ -1,5 +1,6 @@
 ---
 title: "App List"
+description: A constantly-updated tables of bypass + app pairs
 date: 2022-01-19T18:56:44+07:00
 draft: false
 BookToC: false
