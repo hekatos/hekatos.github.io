@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+        url('fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-v27-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(''),
+        url('fonts/roboto-v27-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-v27-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-mono-regular - latin */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+        url('fonts/roboto-mono-v13-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-mono-v13-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: var(--nord5);
+    font-family: 'Nunito', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+code {
+    background-color: #282828;
+    border-radius: 2px;
+    color: var(--nord14);
+    font-family: 'Roboto Mono', Monaco, courier, monospace;
+    margin: 0 2px;
+    padding: 3px 5px;
+    white-space: pre-wrap;
+}
