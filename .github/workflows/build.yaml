@@ -37,6 +37,7 @@ jobs:
         name: Updating bypass table
         run: |
           python _ci/main.py
+          rm -rf _ci/manifests/
       -
         name: Push changed files
         uses: EndBug/add-and-commit@v7
