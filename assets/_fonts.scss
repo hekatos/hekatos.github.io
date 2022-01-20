@@ -47,7 +47,7 @@ body {
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color: var(--nord5);
+    color: $nord5;
     font-family: 'Nunito', 'Helvetica Neue', Arial, sans-serif;
     font-size: 15px;
     letter-spacing: 0;
@@ -58,7 +58,7 @@ body {
 code {
     background-color: #282828;
     border-radius: 2px;
-    color: var(--nord14);
+    color: $nord14;
     font-family: 'Roboto Mono', Monaco, courier, monospace;
     margin: 0 2px;
     padding: 3px 5px;
