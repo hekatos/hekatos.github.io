@@ -51,12 +51,12 @@ $hint-colors: (
     --gray-200: rgba(255, 255, 255, 0.2);
     --gray-500: rgba(255, 255, 255, 0.5);
 
-    --color-link: $nord8;
-    --color-visited-link: $nord8
+    --color-link: #88c0d0;
+    --color-visited-link: #88c0d0;
     // --color-visited-link: #b48ead;
 
-    --body-background: $nord0;
-    --body-font-color: $nord6;
+    --body-background: #2e3440;
+    --body-font-color: #eceff4;
 
     --icon-filter: brightness(0) invert(1);
 
