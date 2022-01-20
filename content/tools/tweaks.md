@@ -32,8 +32,10 @@ libhooker (Taurine, Odyssey, etc.) users: Bypasses seem to crash apps on libhook
 5. Scroll down and toggle the switch beside the app(s) to bypass.
 
 > Relating to the above note: A-Bypass will notfy you if you have another bypass enabled, or if A-Bypass cannot inject itself into the app you enabled and launched.
-?> If the list of apps doesn't display, respring. If not, reinstall RocketBootstrap and AppList.
 
+{{< notice tip >}}
+> If the list of apps doesn't display, respring. If not, reinstall RocketBootstrap and AppList.
+{{< /notice >}}
 ## Hestia
 
 > Available from [Packix](https://sharerepo.stkc.win/?repo=https://repo.packix.com).
@@ -82,4 +84,4 @@ Preferences for Shadow are a somewhat more complex compared to other bypass twea
 
 ## FlyJB & FlyJB X
 
-?> These bypasses were developed by XsF1re, but he has taken down his repo and they are no longer maintained. We recommend you use [A-Bypass](#A-Bypass) or another kernel level bypass.
+> These bypasses were developed by XsF1re, but he has taken down his repo and they are no longer maintained. We recommend you use [A-Bypass](#A-Bypass) or another kernel level bypass.
