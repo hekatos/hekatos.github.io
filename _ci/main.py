@@ -1,7 +1,9 @@
 import os
+import datetime
 import yaml
 import logging
 import argparse
+import frontmatter
 from pytablewriter import MarkdownTableWriter
 
 
@@ -94,7 +96,10 @@ def main() -> None:
         app_list_md = os.path.join(__scriptdir, '..', 'content', '_index.md')
         with open(os.path.join(headers_dir, '_index.md'), encoding='utf-8', mode='r') as infile, \
                 open(app_list_md, encoding='utf-8', mode='w') as outfile:
-            outfile.write(infile.read())
+            metadata = frontmatter.loads(infile)
+            metadata['date'] = datetime.datetime.today().isoformat("T", "seconds") 
+            
+            outfile.write(frontmatter.dumps(metadata))
             outfile.write('\n\n')
             outfile.write(writer.dumps())
 
