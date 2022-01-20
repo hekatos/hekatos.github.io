@@ -3,8 +3,9 @@ title: "Special workarounds"
 description: Some apps just requires really weird stuff to work
 date: 2022-01-19T18:56:44+07:00
 draft: false
-BookToC: true
+bookToC: true
 bookHidden: true
+bookSearchExclude: true
 ---
 # Special workarounds
 
