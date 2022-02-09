@@ -48,23 +48,26 @@ jobs:
     runs-on: ubuntu-20.04
     needs: update-table
     steps:
-      - uses: actions/checkout@v2
+      - 
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
+      - 
+        name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
-
-      - name: Build
+      - 
+        name: Build
         run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - 
+        name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.2.0
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          branch: gh-pages
+          folder: publish
+          git-config-name: GitHub Actions
+          git-config-email: github-actions[bot]@users.noreply.github.com
