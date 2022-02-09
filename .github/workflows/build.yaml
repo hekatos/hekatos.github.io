@@ -68,6 +68,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           branch: gh-pages
-          folder: publish
+          folder: public
           git-config-name: GitHub Actions
           git-config-email: github-actions[bot]@users.noreply.github.com
