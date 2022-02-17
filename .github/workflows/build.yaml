@@ -6,6 +6,7 @@ on:
       - main
   repository_dispatch:
     types: build_application
+  workflow_dispatch:
 
 jobs:
   update-table:
@@ -48,9 +49,8 @@ jobs:
           committer_name: ${{ github.event.pusher.name }}
           committer_email: ${{ github.event.pusher.email }}
           message: 'Updates bypass table'
-          signoff: true
   build-hugo:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     needs: update-table
     steps:
       - 
