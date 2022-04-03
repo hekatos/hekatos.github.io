@@ -13,6 +13,30 @@
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    src: url('fonts/SegoeUI/woff2/SegoeUI-Book.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    src: url('fonts/SegoeUI/woff2/SegoeUI-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/SegoeUI/woff2/SegoeUI-Italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/SegoeUI/woff2/SegoeUI-BoldItalic.woff2') format('woff2');
+ 
+}
+
 html,
 body {
   height: 100%;
@@ -22,7 +46,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: $nord5;
-    font-family: 'Nunito', 'Helvetica Neue', sans-serif;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     font-weight: 535;
     letter-spacing: 0;
