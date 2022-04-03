@@ -1,0 +1,38 @@
+name: Rebase commits on gh-pages
+
+on:
+  push:
+    branches:
+    - gh-pages
+   
+jobs:
+  rebase-last-five:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'skip-ci')"
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - 
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          ref: gh-pages
+      -
+        name: Rebases last five commits
+        run: |
+          b="$(git symbolic-ref --short HEAD)"
+          h="$(git rev-parse $b)" 
+          echo "Current branch: $b $h"
+          
+          c="$(git rev-parse $b~4)" 
+          echo "Recreating $b branch with initial commit $c ..." 
+          git checkout --orphan new-start $c 
+          git commit -C $c 
+          git rebase --onto new-start $c $b 
+          git branch -d new-start 
+
+          git reflog expire --expire=now --all; git gc --prune=now
+          
+          git push -f origin gh-pages
+    
