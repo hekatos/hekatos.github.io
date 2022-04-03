@@ -30,16 +30,20 @@ Do not attempt to use multiple bypasses at once. It will result in conflicts and
 > Relating to the above note: A-Bypass will notfy you if you have another bypass enabled, or if A-Bypass cannot inject itself into the app you enabled and launched.
 
 {{< notice tip >}}
-> If the list of apps doesn't display, respring. If not, reinstall RocketBootstrap and AppList.
+If the list of apps doesn't display, respring. If not, reinstall RocketBootstrap and AppList.
 {{< /notice >}}
 ## Hestia
 
-> Available from [Packix](https://sharerepo.stkc.win/?repo=https://repo.packix.com).
+> Available from [Havoc](https://sharerepo.stkc.win/?repo=https://havoc.app).
 
 > Tweak name in [Choicy](/tools/non-bypasses?id=choicy) or [libhooker-configurator](/tools/non-bypasses?id=libhooker-configurator) should contain `HEST`.
 1. Launch Settings
 2. Scroll down and select Hestia
 3. Under `Enabled Applications` toggle the app(s) with jailbreak detection.
+
+{{< notice tip >}}
+Some applications may require extra patches, please try them if the defaults do not work.
+{{< /notice >}}
 
 ## Liberty Lite (Beta)
 {{< notice warning >}}
