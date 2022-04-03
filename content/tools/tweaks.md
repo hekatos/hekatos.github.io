@@ -18,7 +18,7 @@ Do not attempt to use multiple bypasses at once. It will result in conflicts and
 
 ## A-Bypass
 
-> Available from [MERONA Repo](https://sharerepo.stkc.win/?repo=https://repo.co.kr).
+> Available from [MERONA Repo](https://bypass.beerpsi.me/sharerepo/?repo=https://repo.co.kr).
 
 > Tweak name in [Choicy](/tools/non-bypasses?id=choicy) or [libhooker-configurator](/tools/non-bypasses?id=libhooker-configurator): `!ABypass2`
 1. Launch Settings
@@ -34,7 +34,7 @@ If the list of apps doesn't display, respring. If not, reinstall RocketBootstrap
 {{< /notice >}}
 ## Hestia
 
-> Available from [Havoc](https://sharerepo.stkc.win/?repo=https://havoc.app).
+> Available from [Havoc](https://bypass.beerpsi.me/sharerepo/?repo=https://havoc.app).
 
 > Tweak name in [Choicy](/tools/non-bypasses?id=choicy) or [libhooker-configurator](/tools/non-bypasses?id=libhooker-configurator) should contain `HEST`.
 1. Launch Settings
@@ -50,7 +50,7 @@ Some applications may require extra patches, please try them if the defaults do 
 Liberty Lite (Beta) seems broken on non-libhooker jailbreaks (checkra1n/unc0ver).  
 {{< /notice >}}
 
-> Available from [Ryley Angus' repo](https://sharerepo.stkc.win/?repo=https://ryleyangus.com/repo)
+> Available from [Ryley Angus' repo](https://bypass.beerpsi.me/sharerepo/?repo=https://ryleyangus.com/repo)
 
 > Tweak name in [Choicy](/tools/non-bypasses?id=choicy) or [libhooker-configurator](/tools/non-bypasses?id=libhooker-configurator): `zzzzzLiberty`
 1. Launch Settings
@@ -61,13 +61,13 @@ Liberty Lite (Beta) seems broken on non-libhooker jailbreaks (checkra1n/unc0ver)
 
 ## iHide
 
-> Available from [Kc57's Repo.](https://sharerepo.stkc.win/?repo=https://repo.kc57.com/)
+> Available from [Kc57's Repo.](https://bypass.beerpsi.me/sharerepo/?repo=https://repo.kc57.com/)
 
 iHide is very similar to Liberty Lite, but it may have varying results depending on the app. The steps are essentially the same as Liberty's.
 
 ## Shadow
 
-> Available from [jjolano's repo](https://sharerepo.stkc.win/?repo=https://ios.jjolano.me)
+> Available from [jjolano's repo](https://bypass.beerpsi.me/sharerepo/?repo=https://ios.jjolano.me)
 
 > Tweak name in [Choicy](/tools/non-bypasses?id=choicy) or [libhooker-configurator](/tools/non-bypasses?id=libhooker-configurator): `0Shadow`
 
