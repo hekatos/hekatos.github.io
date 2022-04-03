@@ -8,7 +8,7 @@ from pytablewriter import MarkdownTableWriter
 
 
 def markdown_link(name: str, uri: str, sharerepo: bool = False) -> str:
-    sharerepo_site = "https://beerpsi.me/sharerepo/?repo="
+    sharerepo_site = "https://bypass.beerpsi.me/sharerepo/?repo="
     return f"[{name}]({sharerepo_site}{uri})" if sharerepo else f"[{name}]({uri})"
 
 
