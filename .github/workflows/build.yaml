@@ -69,7 +69,7 @@ jobs:
         run: hugo --minify
       - 
         name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.2.5
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         if: github.ref == 'refs/heads/main'
         with:
           branch: gh-pages
