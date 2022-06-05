@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta property="og:title" content="nordic sharerepo">
+  <meta property="og:type" content="website">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta property="og:description" content="Add repos to your favorite package manager">
+  <meta property="description" content="Add repos to your favorite package manager">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/min/repo.min.css" />
+  <link rel="stylesheet" href="css/min/nord.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="icons/hekatoslogo-32x32.png" sizes="32x32">
+</head>
+
+<body>
+  <template id="usage-template">
+      <h1 style="text-align: justify;"></h1>
+  </template>
+
+  <template id="group1-template">
+    <h1 id="repo-url"></h1>
+    <h3 hidden id="piracy-warning">
+      You are attempting to add a repository that is known to be harmful for reasons such as piracy, illegal content, or malware.<br><br>
+
+      Repositories marked as harmful often distribute software with unexpected effects, whether in the form of paid packages for free or other malicious packages. This can have lasting effects on your device and privacy, even sometimes affecting your ability to jailbreak.<br> 
+      We recommend that you exercise extreme caution to avoid harmful software.<br>
+    </h1>
+  </template>
+
+  <template id="repo-btns-template">
+    <a class="btn" id="cydia" href="">
+      <img class="icon" src="icons/pkgmgrs/cydia.png" alt="Cydia Icon">
+      <span>Add to Cydia</span>
+    </a>
+  
+    <a class="btn" id="sileo" href="">
+      <img class="icon" src="icons/pkgmgrs/sileo.png" alt="Sileo Icon">
+      <span>Add to Sileo</span>
+    </a>
+  
+    <a class="btn" id="zebra" href="">
+      <img class="icon" src="icons/pkgmgrs/zebra.png" alt="Zebra Icon">
+      <span>Add to Zebra</span>
+    </a>
+  
+    <a class="btn" id="installer" href="">
+      <img class="icon" src="icons/pkgmgrs/installer.png" alt="AppTapp Installer 5 Icon">
+      <span>Add to Installer</span>
+    </a>
+  
+    <a class="btn" id="saily" href="">
+      <img class="icon" src="icons/pkgmgrs/saily.png" alt="Saily Icon">
+      <span>Add to Saily</span>
+    </a>
+  </template>
+
+  <div>
+    <div hidden id="usage"></div>
+    <div id="group1" class="group1"></div>
+    <div id="repo-btns" class="repo-btns"></div>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
