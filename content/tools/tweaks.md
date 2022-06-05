@@ -42,12 +42,12 @@ If the list of apps doesn't display, respring. If not, reinstall RocketBootstrap
 3. Under `Enabled Applications` toggle the app(s) with jailbreak detection.
 
 {{< notice tip >}}
-Some applications may require extra patches, please try them if the defaults do not work.
+Some applications may require you to enable extra patches, please try them if the defaults do not work. Also note that Hestia can cause apps to crash. Try using `Compatibility Mode` or disable some patches if they do.
 {{< /notice >}}
 
 ## Liberty Lite (Beta)
 {{< notice warning >}}
-Liberty Lite (Beta) seems broken on non-libhooker jailbreaks (checkra1n/unc0ver).  
+Liberty Lite (Beta) seems to be broken on non-libhooker jailbreaks (checkra1n/unc0ver).  
 {{< /notice >}}
 
 > Available from [Ryley Angus' repo](https://bypass.beerpsi.me/sharerepo/?repo=https://ryleyangus.com/repo)
@@ -81,6 +81,10 @@ Preferences for Shadow are a somewhat more complex compared to other bypass twea
 5. Set `Application Settings` to whitelist and Tap on `Applications`
 6. Enable the app with jailbreak detection.
 7. Toggle `Automatically Generate` and tap `Generate File Map`, then tap `Continue`.
+
+{{< notice tip >}}
+If these settings do not bypass detection, try enabling `Lockdown Mode` for the app you're attempting to bypass.
+{{< /notice >}}
 
 ## FlyJB & FlyJB X
 

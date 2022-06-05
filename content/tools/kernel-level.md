@@ -37,7 +37,7 @@ vnodebypass will disable tweaks globally as well as hide many crucial jailbreak-
 
 > Available from [ichitaso's repo.](https://cydia.ichitaso.com/)
 
-> Users on unc0ver (iOS 14-14.5.1) must also install Siguza's `libkrw` from Elucubratus, else vnodebypass will fail to enable. If enabling still fails, reinstall libkrw. Unfortunately vnodebypass is not an option if you're using unc0ver on 14.6+.
+> Users on unc0ver (iOS 14.0-14.5.1) must also install Siguza's `libkrw` from Elucubratus or else vnodebypass will fail to enable. If enabling still fails, reinstall libkrw. vnodebypass is not an option if you're using unc0ver on 14.6+.
 
 1. After installation, an app will appear on your homescreen named `vnodebypass`.
 2. Launch it and press the `Enable` button.
