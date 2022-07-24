@@ -47,7 +47,7 @@ Some applications may require you to enable extra patches, please try them if th
 
 ## Liberty Lite (Beta)
 {{< notice warning >}}
-Liberty Lite (Beta) seems to be broken on non-libhooker jailbreaks (checkra1n/unc0ver).  
+Liberty Lite (Beta) seems to be broken. After enabling it for most apps, it causes the app to crash.  
 {{< /notice >}}
 
 > Available from [Ryley Angus' repo](https://bypass.beerpsi.me/sharerepo/?repo=https://ryleyangus.com/repo)
