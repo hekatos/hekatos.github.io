@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App List on iOS Jailbreak Detection</title><link>https://bypass.beerpsi.me/</link><description>Recent content in App List on iOS Jailbreak Detection</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 28 Jul 2022 22:44:52 +0000</lastBuildDate><atom:link href="https://bypass.beerpsi.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Bypass tweaks</title><link>https://bypass.beerpsi.me/tools/tweaks/</link><pubDate>Wed, 19 Jan 2022 18:56:44 +0700</pubDate><guid>https://bypass.beerpsi.me/tools/tweaks/</guid><description>Tweaks # These tools attempt to circumvent detection methods.
+Warning
+Do not attempt to use multiple bypasses at once. It will result in conflicts and apps are very likely to crash if you do.
+For further support in English, ask for help in the r/Jailbreak Discord server.
+A-Bypass # Available from MERONA Repo.
+Tweak name in Choicy or libhooker-configurator: !ABypass2
+Launch Settings Scroll down and select A-Bypass Enable the tweak Press Check For Updates Scroll down and toggle the switch beside the app(s) to bypass.</description></item><item><title>Kernel-level bypasses</title><link>https://bypass.beerpsi.me/tools/kernel-level/</link><pubDate>Wed, 19 Jan 2022 18:56:44 +0700</pubDate><guid>https://bypass.beerpsi.me/tools/kernel-level/</guid><description>Kernel-level Bypasses # Warning
+Kernel-level bypasses are experimental. Exercise caution.
+For further support in English, ask for help in the r/Jailbreak Discord server.
+KernBypass # Warning
+Do not use KernBypass on any iOS version above 14.2 or below 12.0. KernBypass will not work on iOS 14 using unc0ver. Use vnodebypass instead.
+Available from ichitaso&amp;rsquo;s repo.
+Launch Settings Open the prefs for KernBypass Tap Enable KernBypass Enable all the apps you want to block jailbreak detection for.</description></item><item><title>Non-bypasses</title><link>https://bypass.beerpsi.me/tools/non-bypasses/</link><pubDate>Wed, 19 Jan 2022 18:56:44 +0700</pubDate><guid>https://bypass.beerpsi.me/tools/non-bypasses/</guid><description>Non-bypasses # These tools are used for disabling and configuring tweak injection into processes.
+For further support in English, ask for help in the r/Jailbreak Discord server.
+Choicy # If you&amp;rsquo;re using a jailbreak with libhooker, such as Chimera, Odyssey, odysseyra1n or Taurine, please use libhooker-configurator, as Choicy&amp;rsquo;s functions have been implemented into it.
+Available from opa334&amp;rsquo;s repo.
+Launch Settings Scroll down to Choicy Tap on Applications Choose the application with jailbreak detection.</description></item><item><title>Special workarounds</title><link>https://bypass.beerpsi.me/special-workarounds/</link><pubDate>Wed, 19 Jan 2022 18:56:44 +0700</pubDate><guid>https://bypass.beerpsi.me/special-workarounds/</guid><description>Special workarounds # Warning
+!&amp;gt; This page usually deals with editing files that normally are left untouched. Workarounds may break, so exercise caution.
+Info
+?&amp;gt; For further support in English, ask for help in the r/Jailbreak Discord server.
+Hang Seng Personal Banking # After downgrading to version 5.0, locate the app&amp;rsquo;s Info.plist (typically /var/containers/Bundle/Application/&amp;lt;app name&amp;gt;/&amp;lt;app name&amp;gt;.app/Info.plist if you use Filza), expand the Root key and select the (i) button on CFBundleVersion.</description></item></channel></rss>
